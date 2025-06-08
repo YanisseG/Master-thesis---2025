@@ -1,0 +1,636 @@
+Node ATPc {
+  logic = (ATPc);
+  rate_up = @logic ? $u_ATPc : 0;
+  rate_down = @logic ? 0 : $d_ATPc;
+}
+
+Node PSEN1 {
+  logic = (PSEN1);
+  rate_up = @logic ? $u_PSEN1 : 0;
+  rate_down = @logic ? 0 : $d_PSEN1;
+}
+
+Node ADAM10 {
+  logic = (ADAM10);
+  rate_up = @logic ? $u_ADAM10 : 0;
+  rate_down = @logic ? 0 : $d_ADAM10;
+}
+
+Node EP300s {
+  logic = (EP300s);
+  rate_up = @logic ? $u_EP300s : 0;
+  rate_down = @logic ? 0 : $d_EP300s;
+}
+
+Node PROTEASOMEControl {
+  logic = (PROTEASOMEControl);
+  rate_up = @logic ? $u_PROTEASOMEControl : 0;
+  rate_down = @logic ? 0 : $d_PROTEASOMEControl;
+}
+
+Node CREBBPs {
+  logic = (CREBBPs);
+  rate_up = @logic ? $u_CREBBPs : 0;
+  rate_down = @logic ? 0 : $d_CREBBPs;
+}
+
+Node DLL4 {
+  logic = (DLL4);
+  rate_up = @logic ? $u_DLL4 : 0;
+  rate_down = @logic ? 0 : $d_DLL4;
+}
+
+Node PSENEN {
+  logic = (PSENEN);
+  rate_up = @logic ? $u_PSENEN : 0;
+  rate_down = @logic ? 0 : $d_PSENEN;
+}
+
+Node FYNs {
+  logic = (FYNs);
+  rate_up = @logic ? $u_FYNs : 0;
+  rate_down = @logic ? 0 : $d_FYNs;
+}
+
+Node MIB2 {
+  logic = (MIB2);
+  rate_up = @logic ? $u_MIB2 : 0;
+  rate_down = @logic ? 0 : $d_MIB2;
+}
+
+Node NEURL1 {
+  logic = (NEURL1);
+  rate_up = @logic ? $u_NEURL1 : 0;
+  rate_down = @logic ? 0 : $d_NEURL1;
+}
+
+Node ATPn {
+  logic = (ATPn);
+  rate_up = @logic ? $u_ATPn : 0;
+  rate_down = @logic ? 0 : $d_ATPn;
+}
+
+Node KAT2Bs {
+  logic = (KAT2Bs);
+  rate_up = @logic ? $u_KAT2Bs : 0;
+  rate_down = @logic ? 0 : $d_KAT2Bs;
+}
+
+Node NEURL2 {
+  logic = (NEURL2);
+  rate_up = @logic ? $u_NEURL2 : 0;
+  rate_down = @logic ? 0 : $d_NEURL2;
+}
+
+Node DLL3 {
+  logic = (DLL3);
+  rate_up = @logic ? $u_DLL3 : 0;
+  rate_down = @logic ? 0 : $d_DLL3;
+}
+
+Node RELN {
+  logic = (RELN);
+  rate_up = @logic ? $u_RELN : 0;
+  rate_down = @logic ? 0 : $d_RELN;
+}
+
+Node Ubsc {
+  logic = (Ubsc);
+  rate_up = @logic ? $u_Ubsc : 0;
+  rate_down = @logic ? 0 : $d_Ubsc;
+}
+
+Node SH3KBP1 {
+  logic = (SH3KBP1);
+  rate_up = @logic ? $u_SH3KBP1 : 0;
+  rate_down = @logic ? 0 : $d_SH3KBP1;
+}
+
+Node NCSTN {
+  logic = (NCSTN);
+  rate_up = @logic ? $u_NCSTN : 0;
+  rate_down = @logic ? 0 : $d_NCSTN;
+}
+
+Node MIB1 {
+  logic = (MIB1);
+  rate_up = @logic ? $u_MIB1 : 0;
+  rate_down = @logic ? 0 : $d_MIB1;
+}
+
+Node APH1B {
+  logic = (APH1B);
+  rate_up = @logic ? $u_APH1B : 0;
+  rate_down = @logic ? 0 : $d_APH1B;
+}
+
+Node Ubn {
+  logic = (Ubn);
+  rate_up = @logic ? $u_Ubn : 0;
+  rate_down = @logic ? 0 : $d_Ubn;
+}
+
+Node NOTCH4 {
+  logic = (NOTCH4);
+  rate_up = @logic ? $u_NOTCH4 : 0;
+  rate_down = @logic ? 0 : $d_NOTCH4;
+}
+
+Node NEURL4 {
+  logic = (NEURL4);
+  rate_up = @logic ? $u_NEURL4 : 0;
+  rate_down = @logic ? 0 : $d_NEURL4;
+}
+
+Node ADAM17 {
+  logic = (ADAM17);
+  rate_up = @logic ? $u_ADAM17 : 0;
+  rate_down = @logic ? 0 : $d_ADAM17;
+}
+
+Node JAG2 {
+  logic = (JAG2);
+  rate_up = @logic ? $u_JAG2 : 0;
+  rate_down = @logic ? 0 : $d_JAG2;
+}
+
+Node APH1A {
+  logic = (APH1A);
+  rate_up = @logic ? $u_APH1A : 0;
+  rate_down = @logic ? 0 : $d_APH1A;
+}
+
+Node NOTCH3 {
+  logic = (NOTCH3);
+  rate_up = @logic ? $u_NOTCH3 : 0;
+  rate_down = @logic ? 0 : $d_NOTCH3;
+}
+
+Node NOTCH1 {
+  logic = (NOTCH1);
+  rate_up = @logic ? $u_NOTCH1 : 0;
+  rate_down = @logic ? 0 : $d_NOTCH1;
+}
+
+Node PSEN2 {
+  logic = (PSEN2);
+  rate_up = @logic ? $u_PSEN2 : 0;
+  rate_down = @logic ? 0 : $d_PSEN2;
+}
+
+Node MAML1 {
+  logic = (MAML1);
+  rate_up = @logic ? $u_MAML1 : 0;
+  rate_down = @logic ? 0 : $d_MAML1;
+}
+
+Node MAML2 {
+  logic = (MAML2);
+  rate_up = @logic ? $u_MAML2 : 0;
+  rate_down = @logic ? 0 : $d_MAML2;
+}
+
+Node MAML3 {
+  logic = (MAML3);
+  rate_up = @logic ? $u_MAML3 : 0;
+  rate_down = @logic ? 0 : $d_MAML3;
+}
+
+Node NEURL3 {
+  logic = (NEURL3);
+  rate_up = @logic ? $u_NEURL3 : 0;
+  rate_down = @logic ? 0 : $d_NEURL3;
+}
+
+Node LRP8 {
+  logic = (LRP8);
+  rate_up = @logic ? $u_LRP8 : 0;
+  rate_down = @logic ? 0 : $d_LRP8;
+}
+
+Node VLDLR {
+  logic = (VLDLR);
+  rate_up = @logic ? $u_VLDLR : 0;
+  rate_down = @logic ? 0 : $d_VLDLR;
+}
+
+Node NOTCH2 {
+  logic = (NOTCH2);
+  rate_up = @logic ? $u_NOTCH2 : 0;
+  rate_down = @logic ? 0 : $d_NOTCH2;
+}
+
+Node DAB2 {
+  logic = (DAB2);
+  rate_up = @logic ? $u_DAB2 : 0;
+  rate_down = @logic ? 0 : $d_DAB2;
+}
+
+Node DLL1 {
+  logic = (DLL1);
+  rate_up = @logic ? $u_DLL1 : 0;
+  rate_down = @logic ? 0 : $d_DLL1;
+}
+
+Node JAG1 {
+  logic = (JAG1);
+  rate_up = @logic ? $u_JAG1 : 0;
+  rate_down = @logic ? 0 : $d_JAG1;
+}
+
+Node ZN2 {
+  logic = (ZN2);
+  rate_up = @logic ? $u_ZN2 : 0;
+  rate_down = @logic ? 0 : $d_ZN2;
+}
+
+Node TBL1X {
+  logic = (ATPc);
+  rate_up = @logic ? $u_TBL1X : 0;
+  rate_down = @logic ? 0 : $d_TBL1X;
+}
+
+Node HDAC3 {
+  logic = (HDAC3);
+  rate_up = @logic ? $u_HDAC3 : 0;
+  rate_down = @logic ? 0 : $d_HDAC3;
+}
+
+Node NCOR1 {
+  logic = (NCOR1);
+  rate_up = @logic ? $u_NCOR1 : 0;
+  rate_down = @logic ? 0 : $d_NCOR1;
+}
+
+Node NCOR2 {
+  logic = (NCOR2);
+  rate_up = @logic ? $u_NCOR2 : 0;
+  rate_down = @logic ? 0 : $d_NCOR2;
+}
+
+Node RBPJ {
+  logic = (RBPJ);
+  rate_up = @logic ? $u_RBPJ : 0;
+  rate_down = @logic ? 0 : $d_RBPJ;
+}
+
+Node SNW1 {
+  logic = (SNW1);
+  rate_up = @logic ? $u_SNW1 : 0;
+  rate_down = @logic ? 0 : $d_SNW1;
+}
+
+Node SKP1 {
+  logic = (SKP1);
+  rate_up = @logic ? $u_SKP1 : 0;
+  rate_down = @logic ? 0 : $d_SKP1;
+}
+
+Node CUL1 {
+  logic = (CUL1);
+  rate_up = @logic ? $u_CUL1 : 0;
+  rate_down = @logic ? 0 : $d_CUL1;
+}
+
+Node RBX1 {
+  logic = (RBX1);
+  rate_up = @logic ? $u_RBX1 : 0;
+  rate_down = @logic ? 0 : $d_RBX1;
+}
+
+Node FBXW7 {
+  logic = (FBXW7);
+  rate_up = @logic ? $u_FBXW7 : 0;
+  rate_down = @logic ? 0 : $d_FBXW7;
+}
+
+Node ALPHA3 {
+  logic = (ALPHA3);
+  rate_up = @logic ? $u_ALPHA3 : 0;
+  rate_down = @logic ? 0 : $d_ALPHA3;
+}
+
+Node ALPHA4 {
+  logic = (ALPHA4);
+  rate_up = @logic ? $u_ALPHA4 : 0;
+  rate_down = @logic ? 0 : $d_ALPHA4;
+}
+
+Node ALPHA7 {
+  logic = (ALPHA7);
+  rate_up = @logic ? $u_ALPHA7 : 0;
+  rate_down = @logic ? 0 : $d_ALPHA7;
+}
+
+Node OTHERS {
+  logic = (OTHERS);
+  rate_up = @logic ? $u_OTHERS : 0;
+  rate_down = @logic ? 0 : $d_OTHERS;
+}
+
+Node CDK8 {
+  logic = (CDK8);
+  rate_up = @logic ? $u_CDK8 : 0;
+  rate_down = @logic ? 0 : $d_CDK8;
+}
+
+Node CCNC {
+  logic = (OTHERS);
+  rate_up = @logic ? $u_CCNC : 0;
+  rate_down = @logic ? 0 : $d_CCNC;
+}
+
+Node CPX4232 {
+  logic = (PSENEN & NCSTN & APH1B & PSEN2);
+  rate_up = @logic ? $u_CPX4232 : 0;
+  rate_down = @logic ? 0 : $d_CPX4232;
+}
+
+Node MAML {
+  logic = ((MAML1 | MAML2 | MAML3) | (ATPn & NOTCHcoactivator_CDK8_CCNC));
+  rate_up = @logic ? $u_MAML : 0;
+  rate_down = @logic ? 0 : $d_MAML;
+}
+
+Node NOTCH {
+  logic = (NOTCH1 | NOTCH2 | NOTCH3 | NOTCH4);
+  rate_up = @logic ? $u_NOTCH : 0;
+  rate_down = @logic ? 0 : $d_NOTCH;
+}
+
+Node FYN {
+  logic =  (RELN_RELNR_DAB2p_SH3KBP1 | FYNs);
+  rate_up = @logic ? $u_FYN : 0;
+  rate_down = @logic ? 0 : $d_FYN;
+}
+
+Node SHUTTLEc {
+  logic = (ALPHA3 | ALPHA4 | ALPHA7 | OTHERS);
+  rate_up = @logic ? $u_SHUTTLEc : 0;
+  rate_down = @logic ? 0 : $d_SHUTTLEc;
+}
+
+Node SHUTTLEn {
+  logic = (NICD_SHUTTLE);
+  rate_up = @logic ? $u_SHUTTLEn : 0;
+  rate_down = @logic ? 0 : $d_SHUTTLEn;
+}
+
+Node NICDc {
+  logic = (GAMMA & !PROTEASOME & NEXT);
+  rate_up = @logic ? $u_NICDc : 0;
+  rate_down = @logic ? 0 : $d_NICDc;
+}
+
+Node GAMMA {
+  logic = (CPX2176 | CPX4231 | CPX4232 | CPX4233);
+  rate_up = @logic ? $u_GAMMA : 0;
+  rate_down = @logic ? 0 : $d_GAMMA;
+}
+
+Node RELNR {
+  logic = (VLDLR | LRP8);
+  rate_up = @logic ? $u_RELNR : 0;
+  rate_down = @logic ? 0 : $d_RELNR;
+}
+
+Node NICD_DAB2n {
+  logic = (NICD_DAB2c);
+  rate_up = @logic ? $u_NICD_DAB2n : 0;
+  rate_down = @logic ? 0 : $d_NICD_DAB2n;
+}
+
+Node FBXW7_SKP1_CUL1_RBX1 {
+  logic = ((FBXW7 & SKP1 & CUL1 & RBX1) | (Ubn & NICDp_FBXW7_SKP1_CUL1_RBX1));
+  rate_up = @logic ? $u_FBXW7_SKP1_CUL1_RBX1 : 0;
+  rate_down = @logic ? 0 : $d_FBXW7_SKP1_CUL1_RBX1;
+}
+
+Node RBPJ_NCOR {
+  logic = (RBPJ & NCOR1 & NCOR2 & SNW1 & HDAC3 & TBL1X);
+  rate_up = @logic ? $u_RBPJ_NCOR : 0;
+  rate_down = @logic ? 0 : $d_RBPJ_NCOR;
+}
+
+Node RBPJ_SNW1 {
+  logic = (ATPn & NOTCHcoactivator_CDK8_CCNC);
+  rate_up = @logic ? $u_RBPJ_SNW1 : 0;
+  rate_down = @logic ? 0 : $d_RBPJ_SNW1;
+}
+
+Node RELN_RELNR_DAB2 {
+  logic = (DAB2 & RELN_RELNR);
+  rate_up = @logic ? $u_RELN_RELNR_DAB2 : 0;
+  rate_down = @logic ? 0 : $d_RELN_RELNR_DAB2;
+}
+
+Node RELN_RELNR_DAB2p_SH3KBP1 {
+  logic = (ATPc & FYN & RELN_RELNR_DAB2_SH3KBP1);
+  rate_up = @logic ? $u_RELN_RELNR_DAB2p_SH3KBP1 : 0;
+  rate_down = @logic ? 0 : $d_RELN_RELNR_DAB2p_SH3KBP1;
+}
+
+Node TARGET {
+  logic = (NOTCHcoactivator);
+  rate_up = @logic ? $u_TARGET : 0;
+  rate_down = @logic ? 0 : $d_TARGET;
+}
+
+Node RELN_RELNR_DAB2_SH3KBP1 {
+  logic = (SH3KBP1 & RELN_RELNR_DAB2);
+  rate_up = @logic ? $u_RELN_RELNR_DAB2_SH3KBP1 : 0;
+  rate_down = @logic ? 0 : $d_RELN_RELNR_DAB2_SH3KBP1;
+}
+
+Node CPX2176 {
+  logic = (PSEN1 & PSENEN & NCSTN & APH1A);
+  rate_up = @logic ? $u_CPX2176 : 0;
+  rate_down = @logic ? 0 : $d_CPX2176;
+}
+
+Node RELN_RELNR {
+  logic = (RELN & RELNR);
+  rate_up = @logic ? $u_RELN_RELNR : 0;
+  rate_down = @logic ? 0 : $d_RELN_RELNR;
+}
+
+Node NICDpUb {
+  logic = (Ubn & NICDp_FBXW7_SKP1_CUL1_RBX1);
+  rate_up = @logic ? $u_NICDpUb : 0;
+  rate_down = @logic ? 0 : $d_NICDpUb;
+}
+
+Node CDK8_CCNC {
+  logic = (ATPn & NOTCHcoactivator_CDK8_CCNC) | (CDK8 & CCNC);
+  rate_up = @logic ? $u_CDK8_CCNC : 0;
+  rate_down = @logic ? 0 : $d_CDK8_CCNC;
+}
+
+Node NEXTt {
+  logic = (GAMMA & NEXT);
+  rate_up = @logic ? $u_NEXTt : 0;
+  rate_down = @logic ? 0 : $d_NEXTt;
+}
+
+Node ADAM {
+  logic = (ADAM17 | ADAM10);
+  rate_up = @logic ? $u_ADAM : 0;
+  rate_down = @logic ? 0 : $d_ADAM;
+}
+
+Node NICD_DAB2c {
+  logic = (NICDc & DAB2cp);
+  rate_up = @logic ? $u_NICD_DAB2c : 0;
+  rate_down = @logic ? 0 : $d_NICD_DAB2c;
+}
+
+Node NICDp_FBXW7_SKP1_CUL1_RBX1 {
+  logic = (FBXW7_SKP1_CUL1_RBX1 & NICDp);
+  rate_up = @logic ? $u_NICDp_FBXW7_SKP1_CUL1_RBX1 : 0;
+  rate_down = @logic ? 0 : $d_NICDp_FBXW7_SKP1_CUL1_RBX1;
+}
+
+Node NOTCHcoactivator_CDK8_CCNC {
+  logic = (CDK8_CCNC & NOTCHcoactivator);
+  rate_up = @logic ? $u_NOTCHcoactivator_CDK8_CCNC : 0;
+  rate_down = @logic ? 0 : $d_NOTCHcoactivator_CDK8_CCNC;
+}
+
+Node ADPc {
+  logic = (ATPc & FYN & RELN_RELNR_DAB2_SH3KBP1);
+  rate_up = @logic ? $u_ADPc : 0;
+  rate_down = @logic ? 0 : $d_ADPc;
+}
+
+Node PROTEASOME {
+  logic = (PROTEASOMEControl & !DAB2cp);
+  rate_up = @logic ? $u_PROTEASOME : 0;
+  rate_down = @logic ? 0 : $d_PROTEASOME;
+}
+
+Node NICD_RBPJ_SNW1 {
+  logic = (RBPJ_NCOR & NICDn);
+  rate_up = @logic ? $u_NICD_RBPJ_SNW1 : 0;
+  rate_down = @logic ? 0 : $d_NICD_RBPJ_SNW1;
+}
+
+Node NOTCHLUb_NOTCH {
+  logic = (Ubsc & E3UbLIGASE & NOTCHL_NOTCH);
+  rate_up = @logic ? $u_NOTCHLUb_NOTCH : 0;
+  rate_down = @logic ? 0 : $d_NOTCHLUb_NOTCH;
+}
+
+Node TBL1_HDAC3_NCOR {
+  logic = (RBPJ_NCOR & NICDn);
+  rate_up = @logic ? $u_TBL1_HDAC3_NCOR : 0;
+  rate_down = @logic ? 0 : $d_TBL1_HDAC3_NCOR;
+}
+
+Node ADAM_ZN2 {
+  logic = (ZN2 & ADAM);
+  rate_up = @logic ? $u_ADAM_ZN2 : 0;
+  rate_down = @logic ? 0 : $d_ADAM_ZN2;
+}
+
+Node CREBBP {
+  logic = (ATPn & NOTCHcoactivator_CDK8_CCNC) | (CREBBPs);
+  rate_up = @logic ? $u_CREBBP : 0;
+  rate_down = @logic ? 0 : $d_CREBBP;
+}
+
+Node E3UbLIGASE {
+  logic = (MIB1 | MIB2 | NEURL1 | NEURL2 | NEURL3 | NEURL4);
+  rate_up = @logic ? $u_E3UbLIGASE : 0;
+  rate_down = @logic ? 0 : $d_E3UbLIGASE;
+}
+
+Node DAB2cp {
+  logic = (RELN_RELNR_DAB2p_SH3KBP1);
+  rate_up = @logic ? $u_DAB2cp : 0;
+  rate_down = @logic ? 0 : $d_DAB2cp;
+}
+
+Node EP300 {
+  logic = (ATPn & NOTCHcoactivator_CDK8_CCNC) | (EP300s);
+  rate_up = @logic ? $u_EP300 : 0;
+  rate_down = @logic ? 0 : $d_EP300;
+}
+
+Node CPX4233 {
+  logic = (PSEN1 & PSENEN & NCSTN & APH1B);
+  rate_up = @logic ? $u_CPX4233 : 0;
+  rate_down = @logic ? 0 : $d_CPX4233;
+}
+
+Node NICDn {
+  logic = (NICD_SHUTTLE | NICD_DAB2n);
+  rate_up = @logic ? $u_NICDn : 0;
+  rate_down = @logic ? 0 : $d_NICDn;
+}
+
+Node NOTCHLUb_NOTCHt {
+  logic = (NOTCHLUb_NOTCH & ADAM_ZN2);
+  rate_up = @logic ? $u_NOTCHLUb_NOTCHt : 0;
+  rate_down = @logic ? 0 : $d_NOTCHLUb_NOTCHt;
+}
+
+Node DAB2np {
+  logic = (NICD_DAB2n);
+  rate_up = @logic ? $u_DAB2np : 0;
+  rate_down = @logic ? 0 : $d_DAB2np;
+}
+
+Node NOTCHcoactivator {
+  logic = (MAML & NICD_RBPJ_SNW1 & CREBBP & EP300 & KAT2B);
+  rate_up = @logic ? $u_NOTCHcoactivator : 0;
+  rate_down = @logic ? 0 : $d_NOTCHcoactivator;
+}
+
+Node NOTCHL {
+  logic = (DLL1 | DLL3 | DLL4 | JAG1 | JAG2);
+  rate_up = @logic ? $u_NOTCHL : 0;
+  rate_down = @logic ? 0 : $d_NOTCHL;
+}
+
+Node NOTCHL_NOTCH {
+  logic = (NOTCH & NOTCHL);
+  rate_up = @logic ? $u_NOTCHL_NOTCH : 0;
+  rate_down = @logic ? 0 : $d_NOTCHL_NOTCH;
+}
+
+Node NICD_SHUTTLE {
+  logic = (SHUTTLEc & NICDc);
+  rate_up = @logic ? $u_NICD_SHUTTLE : 0;
+  rate_down = @logic ? 0 : $d_NICD_SHUTTLE;
+}
+
+Node CPX4231 {
+  logic = (PSENEN & NCSTN & APH1A & PSEN2);
+  rate_up = @logic ? $u_CPX4231 : 0;
+  rate_down = @logic ? 0 : $d_CPX4231;
+}
+
+Node ADPn {
+  logic = (ATPn & NOTCHcoactivator_CDK8_CCNC);
+  rate_up = @logic ? $u_ADPn : 0;
+  rate_down = @logic ? 0 : $d_ADPn;
+}
+
+Node NICDp {
+  logic = (ATPn & NOTCHcoactivator_CDK8_CCNC);
+  rate_up = @logic ? $u_NICDp : 0;
+  rate_down = @logic ? 0 : $d_NICDp;
+}
+
+Node NEXT {
+  logic = (NOTCHLUb_NOTCH & ADAM_ZN2);
+  rate_up = @logic ? $u_NEXT : 0;
+  rate_down = @logic ? 0 : $d_NEXT;
+}
+
+Node KAT2B {
+  logic = ((ATPn & NOTCHcoactivator_CDK8_CCNC) | KAT2Bs);
+  rate_up = @logic ? $u_KAT2B : 0;
+  rate_down = @logic ? 0 : $d_KAT2B;
+}
+
